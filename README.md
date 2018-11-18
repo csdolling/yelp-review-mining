@@ -2,26 +2,19 @@
 
 Work completed so far:
 
-1. Yelp business extraction
-
-  -filtered down by location (AZ had the most businesses by far)
-
-  -filtered down to only businesses with > 100 reviews
-
-  -broken out into separate sets by cuisine
-
-    -tried various popular cuisines; only chose those with over 100 businesses in the set
-
-      -American (995)
-
-      -Mexican (440)
-
-      -Italian (342)
-      -Chinese (191)
-      -Japanese (172)
-      -Mediterranean (139)
-      -Thai (112)
-  -saved each cuisine set to its own csv & json file
+1. Yelp business extraction:
+  1. filtered down by location (AZ had the most businesses by far)
+  2. filtered down to only businesses with > 100 reviews
+  3. broken out into separate sets by cuisine
+    - tried various popular cuisines; only chose those with over 100 businesses in the set
+      1. American (995)
+      2. Mexican (440)
+      3. Italian (342)
+      4. Chinese (191)
+      5. Japanese (172)
+      6. Mediterranean (139)
+      7. Thai (112)
+  4. saved each cuisine set to its own csv & json file
  
  
 Work to do: 
