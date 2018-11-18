@@ -2,11 +2,11 @@
 
 Work completed so far:
 
-1. Yelp business extraction:
+A. Yelp business extraction:
   1. filtered down by location (AZ had the most businesses by far)
   2. filtered down to only businesses with > 100 reviews
   3. broken out into separate sets by cuisine
-    - tried various popular cuisines; only chose those with over 100 businesses in the set
+    A. tried various popular cuisines; only chose those with over 100 businesses in the set
       1. American (995)
       2. Mexican (440)
       3. Italian (342)
