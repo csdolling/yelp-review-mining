@@ -21,11 +21,11 @@ Work to do:
 II. Yelp review extraction
   1. need to chunk up the file because it's too large to read in
   2. then filter out only reviews with AZ for state
-    1. hopefully this set will be small enough that we can put these AZ reviews back together into one file, which will be way easier to work with
+      1. hopefully this set will be small enough that we can put these AZ reviews back together into one file, which will be way easier to work with
   3. then write a program which reads in the AZ reviews file and a cuisine file
-    1. for each business id in the cuisine file, search the review file for all reviews for that business, and write these to new file
-    2. do this for each cuisine
-    3. we should end with separate files of all reviews per cuisine (for the chosen list of businesses)
+      1. for each business id in the cuisine file, search the review file for all reviews for that business, and write these to new file
+      2. do this for each cuisine
+      3. we should end with separate files of all reviews per cuisine (for the chosen list of businesses)
     
 III. develop a classifier
   1. maybe someone can start working on this? we can do the conceptual work even without the data in hand yet
